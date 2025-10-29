@@ -2,6 +2,7 @@ import Hero from './components/Hero';
 import ExerciseShowcase from './components/ExerciseShowcase';
 import ProgramHighlights from './components/ProgramHighlights';
 import NutritionTools from './components/NutritionTools';
+import AIChat from './components/AIChat';
 import { User } from 'lucide-react';
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
         <ExerciseShowcase />
         <ProgramHighlights />
         <NutritionTools />
+        <AIChat />
 
         <section id="tools" className="bg-white py-12">
           <div className="mx-auto max-w-7xl px-6">
